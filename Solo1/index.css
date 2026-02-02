@@ -1,0 +1,14 @@
+.container-1 {
+    background-image: url("Hassan._court_-1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 34%;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+}
