@@ -1,5 +1,5 @@
 .container-1 {
-    background-image: url("Hassan._court_-1.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMLevOREhpHWgkCQVlTDs4pR0vz0dEYoRRw&s");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,8 +7,129 @@
     height: 34%;
     background-repeat: no-repeat;
     width: 100vw;
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
+    margin: 0px;
 }
+.container-1 > .div1 {
+    background-color: #1D3557;
+
+    font-size: 2rem;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+.container-1 > .div1 > h1 {
+    font-size: inherit;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.container-1 > .div2  {
+    background-color: #457B9D;
+    padding: 8px 28px;
+    color: white;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+.container-1 > .div2 > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.container-2 {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    height: 33vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    align-items: center;
+    width: 100vw;
+    padding: 0px;
+}
+.container-2 > h1 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+.container-2 > .inner {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.container-2 > .inner > .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.container-2 > .inner > .card > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.container-2 > .inner > .card > h1 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.container-2 > .inner > .card > p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100vw;
+}
+.container-3 > .aboutMe {
+    background-color: #A8DADC;
+    height: 300px;
+    display: flex;
+    box-shadow: 0 6px 0 #1D3557;
+    border-radius: 10px;
+    padding: 0;
+}
+.container-3 > .aboutMe > img {
+    width: 180px;
+    height: 250px;
+    margin: 23px 7px 23px 13px;
+    border-radius: 10px;
+}
+.container-3 > .aboutMe > div {
+    text-align: center;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1D3557;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.container-3 > .aboutMe > div > h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.container-3 > .aboutMe > div > p {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0px;
+}
+.container-3 > .aboutMe > div > h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 body {
     margin: 0px;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
