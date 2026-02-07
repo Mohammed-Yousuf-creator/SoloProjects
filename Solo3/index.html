@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-maker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>Generate a <br><span>Random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <div class="checkboxes">
+            
+                <span>
+                    <input type="checkbox" id="number" name="number">
+                    <label for="number">Numbers</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="special-characters" name="special-characters">
+                    <label for="special-characters">Special characters</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="Capital-letters" name="Capital-letters">
+                    <label for="Capital-letters">Capital letters</label>
+                </span>
+            
+        </div>
+        <button id="password-btn">Generate Password</button>
+        <hr>
+        <div class="password-area">
+            <span id="span1"></span>
+            <span id="span2"></span>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
